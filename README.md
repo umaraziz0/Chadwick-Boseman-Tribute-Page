@@ -1,8 +1,12 @@
-# ___ Tribute Page
+# Chadwick Boseman Tribute Page
 
-A tribute page dedicated to ___, as part of the Responsive Web Design projects for [FreeCodeCamp](freecodecamp.org).
+A tribute page dedicated to Chadwick Boseman, whom recently passed away due to cancer on August 28, 2020.
+
+This project is a part of the Responsive Web Design projects for [FreeCodeCamp](https://freecodecamp.org).
 
 ### Made Using
 - HTML
 - CSS
-- Bootstrap
+- [Bootstrap 4.5](https://getbootstrap.com)
+
+This project is available to view at the following URL: ___
