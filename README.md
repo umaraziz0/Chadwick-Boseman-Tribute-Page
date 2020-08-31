@@ -7,6 +7,7 @@ This project is a part of the Responsive Web Design projects for [FreeCodeCamp](
 ### Made Using
 - HTML
 - CSS
+- JavaScript & [Swiper.js](https://swiperjs.com/)
 - [Bootstrap 4.5](https://getbootstrap.com)
 
 This project is available to view at the following URL: ___
