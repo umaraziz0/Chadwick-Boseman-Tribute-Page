@@ -9,4 +9,4 @@ This project is a part of the Responsive Web Design projects for [FreeCodeCamp](
 - CSS & [Bootstrap 4.5](https://getbootstrap.com)
 - JavaScript & [Swiper.js](https://swiperjs.com/)
 
-This project is available to view at the following URL: ___
+This project is available to view at the following URL: [github.io](https://umaraziz0.github.io/Chadwick-Boseman-Tribute-Page/)
