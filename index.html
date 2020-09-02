@@ -10,7 +10,6 @@
     <link rel="icon" href="https://img.icons8.com/dotty/80/000000/black-panther-mask.png" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
     <link
@@ -21,14 +20,13 @@
     <!-- Swiper.js -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-
 </head>
 
 <body id="page-top">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">Chadwick Boseman
+            <a id="title" class="navbar-brand js-scroll-trigger" href="#page-top">Chadwick Boseman
                 Tribute Page</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -40,7 +38,9 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#summary">Summary</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#filmography">Filmography</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <li class="nav-item">
+                        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -63,13 +63,14 @@
         <div class="container" id="summary">
             <!-- Featured Project Row-->
             <div class=" row align-items-center justify-content-center no-gutters mb-4 mb-lg-5">
-                <div class="col-xl-6 col-lg-7 text-center">
-                    <img class="img-fluid mb-3 mb-lg-0 w-75" src="assets/img/portrait.jpg" alt="" />
+                <div id="img-div" class="col-xl-6 col-lg-7 text-center">
+                    <img id="image" class="img-fluid mb-3 mb-lg-0 w-75" src="assets/img/portrait.jpg" alt="" />
                 </div>
                 <div class="col-xl-5 col-lg-5">
                     <div class="featured-text text-center text-lg-left">
-                        <h4>Summary</h4>
-                        <p class="text-black-50 mb-0">Chadwick Aaron Boseman was an American actor who has played
+                        <h4 id="caption">Summary</h4>
+                        <p id="tribute-info" class="text-black-50 mb-0">Chadwick Aaron Boseman was an American actor who
+                            has played
                             several notable roles including
                             Jackie Robinson in <em>42</em> (2013), Thurgood Marshall in <em>Marshall</em> (2017), and is
                             most well-known
@@ -78,8 +79,8 @@
                             several awards, including the NAACP Image Award and the Screen Actors Guild Award. Boseman
                             died on August 28,
                             2020, after privately dealing with colon cancer for four years</p>
-                        <a href="https://en.wikipedia.org/wiki/Chadwick_Boseman" class="btn btn-sm btn-primary mt-3"
-                            target="_blank">Wikipedia Page</a>
+                        <a id="tribute-link" href="https://en.wikipedia.org/wiki/Chadwick_Boseman"
+                            class="btn btn-sm btn-primary mt-3" target="_blank">Wikipedia Page</a>
                     </div>
                 </div>
             </div>
@@ -317,6 +318,7 @@
     <script src="js/swiper.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+
 </body>
 
 </html>
